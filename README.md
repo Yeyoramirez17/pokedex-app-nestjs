@@ -13,9 +13,12 @@ npm install
 npm i -g @nestjs/cli
 ```
 
-4. Levatar la base de datos
+4. Crear y Levatar la base de datos
 
-
+5. Correr los Seed "semillas" haciendo una petición al end-point
+```
+http://localhost:3000/api/v1/seed
+```
 ## Tecnologias utilizadas
 * Mongo DB
-* Nest
+* Nest JS
